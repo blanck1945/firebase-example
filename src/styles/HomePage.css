@@ -1,0 +1,31 @@
+
+
+
+.main-content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.side-bar {
+    width: 2%;
+    border: 1px solid rgb(40, 18, 113);
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.side-bar-open {
+    width: 8%;
+    background-color:rgb(40, 18, 113); 
+    border: 1px solid white;
+    border-left: none;
+    transition: all 0.5s ease;
+    color: white
+} 
